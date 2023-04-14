@@ -8,7 +8,7 @@ category:
 order: 1
 ---
 
-# Vituralizacao
+# Virtualização
 
 ## Execução de Aplicativos em um Sistema Operacional
 
