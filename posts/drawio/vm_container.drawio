@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="FbB0IRF7OOaOUUNcoGIY" name="Página-1">
+        <mxGraphModel dx="1540" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="" style="group;fillColor=#60a917;fontColor=#000000;strokeColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="860" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#000000;strokeColor=none;" vertex="1" parent="5">
+                    <mxGeometry width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fillColor=#60a917;fontColor=#000000;strokeColor=none;" vertex="1" parent="5">
+                    <mxGeometry x="20" y="30" width="62.400000000000006" height="62.400000000000006" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Máquina Hopedeira" style="text;html=1;strokeColor=none;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="5">
+                    <mxGeometry x="100" y="10" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#008a00;fontColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="780" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="SO" style="text;html=1;strokeColor=none;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="793.9" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#ffff88;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="700" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="SW de Virtualização" style="text;html=1;strokeColor=none;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="720" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#cdeb8b;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="538" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="SO Virtualizado" style="text;html=1;strokeColor=none;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="551.9" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#ffcc99;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="620" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="HW Virtualizado" style="text;html=1;strokeColor=none;fillColor=#ffcc99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="145" y="635" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#1ba1e2;fontColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="460" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="App" style="text;html=1;strokeColor=none;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="473.9" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="group;fillColor=#60a917;fontColor=#000000;strokeColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="450" y="860" width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#000000;strokeColor=none;" vertex="1" parent="31">
+                    <mxGeometry width="290" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;fillColor=#60a917;fontColor=#000000;strokeColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="20" y="30" width="62.400000000000006" height="62.400000000000006" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Máquina Hopedeira" style="text;html=1;strokeColor=none;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="31">
+                    <mxGeometry x="100" y="10" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#008a00;fontColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="780" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="SO" style="text;html=1;strokeColor=none;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="793.9" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#d80073;fontColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="700" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Container Engine" style="text;html=1;strokeColor=none;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="720" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;fillColor=#1ba1e2;fontColor=#000000;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="620" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="App" style="text;html=1;strokeColor=none;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="635" width="140" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

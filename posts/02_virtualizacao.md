@@ -2,14 +2,14 @@
 icon: edit
 date: 2023-04-14 20:40:00.00 -3
 tag:
-  - vituralizacao
+  - virtualizacao
 category:
   - aula
 order: 1
 ---
 
 # Virtualização
-
+[^AWS_VIR] [^AWS_VIRCON] [^AWS_CON]
 ## Execução de Aplicativos em um Sistema Operacional
 
 Para entender como um aplicativo é executado em um sistema operacional, primeiro é necessário entender como um sistema operacional funciona. Um sistema operacional é responsável por gerenciar os recursos de um computador, como memória, processador e dispositivos de entrada e saída. Ele é o intermediário entre o hardware do computador e os programas que são executados nele.
@@ -37,7 +37,66 @@ A virtualização de servidor é usada para criar vários servidores virtuais em
 A virtualização de desktop é usada para criar desktops virtuais que podem ser acessados ​​por usuários de qualquer lugar. Cada desktop virtual é um ambiente virtualizado que inclui um sistema operacional e os aplicativos necessários para o usuário. Os usuários podem acessar seus desktops virtuais usando um cliente remoto, como um navegador da web ou um aplicativo de desktop remoto.
 
 ### Virtualização de Aplicativo
-
 A virtualização de aplicativo é usada para criar um ambiente isolado para a execução de um único aplicativo. O aplicativo é executado em um ambiente virtualizado, separado do sistema operacional hospedeiro, o que garante que o aplicativo não afete outros aplicativos ou o sistema operacional. Isso pode ser útil para testar aplicativos ou para executar aplicativos que têm requisitos de sistema específicos.
 
-Além desses três tipos principais de virtualização, existem outras formas de virtualização, incluindo a virtualização de armazenamento, a virtualização de rede e a virtualização de recursos. Cada uma dessas formas de virtualização é projetada para um conjunto específico de casos de uso e pode ajudar a melhorar a eficiência e a flexibilidade de um sistema de computador.
+### Virtualização de armazenamento
+A virtualização de armazenamento é usada para criar um pool de armazenamento de vários dispositivos de armazenamento físico. O objetivo é fornecer aos usuários um único ponto de acesso para todo o armazenamento disponível. Isso pode ser útil em grandes empresas ou organizações que possuem grandes quantidades de dados.
+
+A virtualização de armazenamento é frequentemente usada em conjunto com a virtualização de servidor. Isso permite que os administradores de TI gerenciem o armazenamento de dados de vários servidores em um único local. Isso pode melhorar a eficiência, facilitando o gerenciamento de dados em vários servidores físicos.
+
+### Virtualização de rede
+
+A virtualização de rede é usada para criar redes virtuais em um único hardware de rede físico. Isso permite que vários sistemas operacionais e aplicativos compartilhem a mesma rede física. Cada rede virtual tem seu próprio conjunto de endereços IP e é isolada das outras redes virtuais. Isso pode ser útil em grandes organizações que precisam separar diferentes departamentos ou equipes em redes isoladas.
+
+A virtualização de rede também pode ser usada para criar ambientes de teste isolados. Isso permite que os desenvolvedores testem aplicativos em uma rede isolada sem afetar a rede de produção.
+
+### Virtualização de recursos
+
+A virtualização de recursos é usada para criar pools de recursos físicos, como CPU, RAM e armazenamento, que podem ser alocados dinamicamente para diferentes aplicativos e sistemas operacionais. Isso pode ajudar a melhorar a eficiência de um sistema, permitindo que os recursos sejam compartilhados entre diferentes aplicativos e sistemas operacionais. Por exemplo, um servidor virtual pode ser configurado para compartilhar recursos de CPU e RAM entre vários sistemas operacionais.
+
+A virtualização de recursos também pode ser usada para criar ambientes de teste isolados. Isso permite que os desenvolvedores testem aplicativos em um ambiente isolado sem afetar o ambiente de produção.
+
+## Máquina virtual
+
+Uma máquina virtual é um ambiente de computação que é criado por meio de software em um sistema operacional host. Ele é projetado para emular um sistema operacional completo e permitir que os usuários executem aplicativos e processos em um ambiente virtualizado.
+
+Uma máquina virtual é criada a partir de uma imagem de disco que contém um sistema operacional e aplicativos pré-instalados. Essa imagem de disco é então executada dentro de um software de virtualização, que permite que a máquina virtual seja executada em um ambiente isolado e protegido do sistema operacional host.
+
+Uma das principais vantagens das máquinas virtuais é que elas permitem que os usuários executem aplicativos em um ambiente isolado, sem afetar o sistema operacional host. Isso pode ser útil para testar novos aplicativos ou sistemas operacionais, ou para isolar aplicativos que podem apresentar riscos de segurança.
+
+As máquinas virtuais também são úteis para desenvolvedores de software, pois permitem que eles criem um ambiente de desenvolvimento isolado que é compatível com as necessidades do projeto. Além disso, as máquinas virtuais podem ser facilmente clonadas e distribuídas para outras máquinas, permitindo que os usuários compartilhem ambientes de desenvolvimento ou teste.
+
+Existem vários softwares de virtualização disponíveis, incluindo o VirtualBox, VMware e Hyper-V da Microsoft. Esses softwares permitem que os usuários criem e gerenciem máquinas virtuais em seus sistemas operacionais host.
+
+No entanto, a virtualização também tem algumas desvantagens. As máquinas virtuais geralmente requerem mais recursos do sistema, como RAM e CPU, do que a execução de aplicativos diretamente no sistema operacional host. Além disso, a virtualização pode reduzir o desempenho do sistema operacional host, especialmente se várias máquinas virtuais estiverem sendo executadas ao mesmo tempo.
+
+## Containers
+
+Os containers proporcionam uma maneira padrão de empacotar código, configurações e dependências de seu aplicativo em um único objeto. Eles compartilham um sistema operacional instalado no servidor e são executados como processos isolados de recursos. Isso permite fazer implantações rápidas, confiáveis e consistentes, independentemente do ambiente. A Nuvem AWS oferece recursos de infraestrutura otimizados para a execução de containers, além de um conjunto de serviços de orquestração que facilitam a criação e execução de aplicativos conteinerizados em produção.
+
+### Qual a diferença entre contêineres e máquinas virtuais?
+Contêineres e máquinas virtuais são tecnologias que tornam as aplicações independentes de seus recursos de infraestrutura de TI. Um contêiner é um pacote de código de software que contém o código de uma aplicação, suas bibliotecas e outras dependências. A conteinerização torna suas aplicações portáteis, para que o mesmo código possa ser executado em qualquer dispositivo. Uma máquina virtual é uma cópia digital de uma máquina física. Você pode ter várias máquinas virtuais com seus próprios sistemas operacionais individuais em execução no mesmo sistema operacional host. Além disso, você pode criar uma máquina virtual que contém tudo o que é necessário para executar sua aplicação.
+
+
+
+## Resumo das diferenças: Contêiner e Máquina Virtual
+
+<figure>
+
+![](drawio/vm_container.svg)
+
+<figcaption>Comparativo entre virtualização de uma aplicação utilizando Máquina Virtual e Container</figcaption>
+</figure>
+
+|Características|Contêiner|Máquina virtual|
+|---|---|---|
+|Definição   | Um pacote de código de software que contém o código de um aplicativo, suas bibliotecas e outras dependências que fazem o ambiente de execução da aplicação.  |Réplica digital de uma máquina física. Particiona o hardware físico em vários ambientes. |
+|Virtualização|Virtualiza o sistema operacional.|Virtualiza a estrutura física subjacente.|
+|Encapsulamento|Camada de software sobre o sistema operacional necessária para executar a aplicação ou o componente da aplicação.|Sistema operacional, todas as camadas de software acima dele, várias aplicações.|
+|Tecnologia|Mecanismo de contêiner coordena com o sistema operacional subjacente para obter recursos. |O hipervisor coordena com o hardware ou sistema operacional subjacente.|
+|Tamanho|Mais leve (pense em termos de MB).|Muito maior (pense em termos de GB).|
+|Controle|Menos controle do ambiente fora do contêiner.|Mais controle do ambiente inteiro.|
+|Flexibilidade|Mais flexível. Você pode migrar rapidamente entre ambientes on-premises e centrados na nuvem.|Menos flexível. A migração tem desafios.|
+|Escalabilidade|Altamente escalável. Escalabilidade granular possível com microsserviços.|Escalar pode ter custo elevado. É necessário alternar de instâncias on-premises para a nuvem para escalar com bom custo-benefício.
+
+ 
