@@ -70,6 +70,18 @@ Existem vários softwares de virtualização disponíveis, incluindo o VirtualBo
 
 No entanto, a virtualização também tem algumas desvantagens. As máquinas virtuais geralmente requerem mais recursos do sistema, como RAM e CPU, do que a execução de aplicativos diretamente no sistema operacional host. Além disso, a virtualização pode reduzir o desempenho do sistema operacional host, especialmente se várias máquinas virtuais estiverem sendo executadas ao mesmo tempo.
 
+## Windows Subsystem for Linux (WSL) 
+
+O Windows Subsystem for Linux (WSL) é uma plataforma de virtualização de sistema operacional que permite aos usuários do Windows executar distribuições Linux em um ambiente virtualizado. Ele foi introduzido pela Microsoft como uma forma de fornecer aos desenvolvedores do Windows um ambiente de linha de comando mais amigável para o desenvolvimento de aplicativos baseados em Linux.
+
+O WSL não é uma máquina virtual tradicional, mas sim um subsistema dentro do Windows que fornece uma camada de compatibilidade com o Linux. Ele usa a tecnologia de virtualização de recursos do Windows, como o Hyper-V, para criar um ambiente virtualizado que é executado em segundo plano. Isso permite que os usuários do Windows executem aplicativos baseados em Linux sem precisar instalar um sistema operacional Linux completo em uma máquina virtual.
+
+O WSL oferece duas opções de distribuição Linux - o WSL1 e o WSL2. O WSL1 usa uma camada de compatibilidade para emular o kernel Linux no Windows, enquanto o WSL2 usa a tecnologia de virtualização Hyper-V para executar um kernel Linux real em uma máquina virtual leve. Isso torna o WSL2 mais rápido e mais eficiente em termos de recursos do que o WSL1, mas também pode exigir mais configuração inicial e compatibilidade com o hardware.
+
+Uma das principais vantagens do WSL é que ele permite que os desenvolvedores do Windows usem ferramentas baseadas em Linux sem precisar alternar para um sistema operacional Linux separado. Isso pode melhorar significativamente a eficiência e a produtividade dos desenvolvedores, permitindo que eles trabalhem em um ambiente de linha de comando mais familiar e compatível com as ferramentas de desenvolvimento Linux.
+
+No entanto, o WSL pode ter algumas limitações em relação a uma máquina virtual tradicional, como a falta de suporte para algumas funções de rede avançadas e a necessidade de usar uma distribuição Linux compatível com o WSL. Além disso, o WSL pode não ser a melhor opção para usuários que precisam de um ambiente de desenvolvimento Linux completo com recursos avançados de virtualização.
+
 ## Containers
 
 Os containers proporcionam uma maneira padrão de empacotar código, configurações e dependências de seu aplicativo em um único objeto. Eles compartilham um sistema operacional instalado no servidor e são executados como processos isolados de recursos. Isso permite fazer implantações rápidas, confiáveis e consistentes, independentemente do ambiente. A Nuvem AWS oferece recursos de infraestrutura otimizados para a execução de containers, além de um conjunto de serviços de orquestração que facilitam a criação e execução de aplicativos conteinerizados em produção.
