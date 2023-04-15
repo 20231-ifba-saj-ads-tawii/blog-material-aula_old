@@ -10,3 +10,6 @@
 
 [^AWS_CON]: O que é um container? [https://aws.amazon.com/pt/containers/](https://aws.amazon.com/pt/containers/)
 
+
+[^RUN_PODMAN]: Run Podman on Windows: How-to instructions? [https://www.redhat.com/sysadmin/run-podman-windows](https://www.redhat.com/sysadmin/run-podman-windows)
+
