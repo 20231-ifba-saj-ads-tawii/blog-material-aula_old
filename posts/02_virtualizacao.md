@@ -95,7 +95,64 @@ Contêineres e máquinas virtuais são tecnologias que tornam as aplicações in
 
 <figure>
 
-![](drawio/vm_container.svg)
+```plantuml
+digraph G {
+	fontname="Helvetica,Arial,sans-serif"
+		graph [
+		newrank = true,
+		nodesep = 1,
+		ranksep = 0.2,
+		overlap = true,
+		splines = false,
+	]
+	node [
+		colorscheme=oranges7
+		fixedsize = false,
+		fontsize = 24,
+		height = 1,
+		shape = box,
+		style="rounded,filled",
+		width = 3.5
+	]
+	edge [
+		arrowhead = none,
+		arrowsize = 0.5,
+		labelfontname = "Ubuntu",
+		weight = 10,
+		style = "filled,setlinewidth(5)"
+	]
+  
+	subgraph cluster_0 {
+		style=filled;
+		color=lightgrey;
+		node [color=white];
+    a0[color=7 label="Maquina\nHospedeira"];
+    a1[color=6 label="S.O."];
+    a2[color=5 label="SW de Vertualização"];
+    a3[color=4 label="HW emulado"];
+    a4[color=3 label="S.O. Virtualizado"];
+    a5[color=2 label="Libs"];
+    a6[color=1 label="App"];
+		a6 -> a5 -> a4 -> a3 -> a2 -> a1 -> a0 [style=invis]
+		label = "Maquina Virtual";
+	}
+
+	subgraph cluster_1 {
+		node [colorscheme=greens7]
+		b0[color=7 label="Maquina\nHospedeira"];
+		b1[color=6 label="S.O."];
+		b2[color=5 label="Container Engine"];
+		b5[color=2 label="Libs"];
+		b6[color=1 label="App"];
+		
+		label = "Container";
+	}
+  {rank = same; a0; b0;}
+  {rank = same; a1; b1;}
+  {rank = same; a2; b2;}
+  {rank = same; a5; b5;}
+}
+```
 
 <figcaption>Comparativo entre virtualização de uma aplicação utilizando Máquina Virtual e Container</figcaption>
 </figure>
