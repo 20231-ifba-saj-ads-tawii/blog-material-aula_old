@@ -20,7 +20,7 @@ export default hopeTheme({
 
   repo: "20231-ifba-saj-ads-tawii/blog-material-aula",
 
-  docsBranch: 'main',
+  docsBranch: 'master',
 
   // navbar
   navbar: navbar,
