@@ -168,4 +168,8 @@ digraph G {
 |Flexibilidade|Mais flexível. Você pode migrar rapidamente entre ambientes on-premises e centrados na nuvem.|Menos flexível. A migração tem desafios.|
 |Escalabilidade|Altamente escalável. Escalabilidade granular possível com microsserviços.|Escalar pode ter custo elevado. É necessário alternar de instâncias on-premises para a nuvem para escalar com bom custo-benefício.
 
+## Referências
+
+@include(../bib/bib.md)
+
  
