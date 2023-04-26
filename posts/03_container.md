@@ -37,3 +37,11 @@ https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
 ```console
 docker run -it --rm -d -p 8080:80 --name web nginx
 ```
+
+
+## Referências
+
+@include(../bib/bib.md)
+
+
+
